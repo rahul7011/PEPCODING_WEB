@@ -1,0 +1,3 @@
+hello my name is rahul
+this is an example of file manipulation
+please star this repo.
