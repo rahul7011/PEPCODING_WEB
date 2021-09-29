@@ -10,7 +10,7 @@ let clargs=minimist(process.argv);
 let downloadedFile=axios.get(clargs.url);
 
 downloadedFile.then(function (response){
-    console.log(response);
+    //console.log(response);
     let html=response.data;
     fs.writeFileSync(clargs.dest,html,"utf-8");
 }).catch(function(err){
