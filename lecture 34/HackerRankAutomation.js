@@ -39,8 +39,8 @@ async function HackerRank() {
   await page.click('a[href="/administration/challenges"]');
   await page.waitFor(3000);
 
-  // createChallenge(page);
-  addmods(page);
+  // createChallenge(page); //If you need to create challenges by automation
+  addmods(page);  //To add mods
 }
 HackerRank();
 
@@ -63,7 +63,7 @@ async function addmods(page) {
       await page.click('li[data-tab="moderators"]');
       await page.waitFor(3000);
       await page.keyboard.press("Tab");
-      await page.keyboard.type("cetadi6362", { delay: 100 });
+      await page.keyboard.type("write your moderator Id ", { delay: 100 });
       await page.keyboard.press("Enter");
       await page.click("button.save-challenge");
       await page.waitFor(3000);
