@@ -206,3 +206,17 @@ function addTeam(teams,teamName)
         })
     }
 }
+
+
+title: "",
+applylink: "",
+jd: "",
+companyname: "",
+location: "",
+experience: "",
+salary: "",
+type: "",
+skills: "",
+startdate: "",
+enddate: "",
+source: "",
